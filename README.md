@@ -2,7 +2,7 @@
  Creado por Marco Nehuen Hernández Abba
  
  Debido al peso del gif (por los planetas y el escenario con la libreria GifAnimator), la duracion de esta es corta
- ![animacion](animacion.gif)
+ ![animacion](anima.gif)
  
  ### Contenido
 - Trabajo realizado
