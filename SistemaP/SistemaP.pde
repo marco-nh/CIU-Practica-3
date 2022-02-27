@@ -113,8 +113,8 @@ void setup(){
   bg = loadImage("fondo.jpg");
   
   //gif
-  ficherogif = new GifMaker(this, "animacion.gif");
-  ficherogif.setRepeat(0);        // anima sin fin
+  //ficherogif = new GifMaker(this, "animacion.gif");
+  //ficherogif.setRepeat(0);        // anima sin fin
   
 }
 
@@ -260,8 +260,8 @@ void draw(){
   if (opcion > 360) opcion = 0;
   if (opcion > 360) distancia = 0;
   
-  ficherogif.setDelay(1000/60);
-  ficherogif.addFrame();
+  //ficherogif.setDelay(1000/60);
+  //ficherogif.addFrame();
   
 }
 
@@ -282,7 +282,7 @@ void keyPressed(){
   }
   //FINALIZA GIF
   if (key == 'g'){
-    ficherogif.finish();   
+    //ficherogif.finish();   
   }
   
 }
