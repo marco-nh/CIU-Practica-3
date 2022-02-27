@@ -1,3 +1,8 @@
+//Autor: Marco Nehuen Hernández Abba
+//importar animacion
+import gifAnimation.*;
+
+
 //rotacion general
 float rotacion;
 float rotacion2;
@@ -17,11 +22,15 @@ PShape centro;
 PImage img;
 PImage bg;
 
+
 int opcion;
 int distancia;
 
 //primero angulo, segundo distancia
 boolean[] sum;
+//grabar
+GifMaker ficherogif;
+
 
 void setup(){
   size(1000,500,P3D);
@@ -103,6 +112,10 @@ void setup(){
   //cargar imagen
   bg = loadImage("fondo.jpg");
   
+  //gif
+  ficherogif = new GifMaker(this, "animacion.gif");
+  ficherogif.setRepeat(0);        // anima sin fin
+  
 }
 
 void draw(){
@@ -122,10 +135,7 @@ void draw(){
   translate(width/2, height/2,distancia);
   
   
-  pushMatrix();
   rotateX(radians(opcion));
-  rotateY(radians(rotacion));
-  popMatrix();
   if(sum[0]){
     rotateX(radians(90));
   }
@@ -250,6 +260,9 @@ void draw(){
   if (opcion > 360) opcion = 0;
   if (opcion > 360) distancia = 0;
   
+  ficherogif.setDelay(1000/60);
+  ficherogif.addFrame();
+  
 }
 
 void keyPressed(){
@@ -267,6 +280,11 @@ void keyPressed(){
     opcion = -45;
     distancia = -100;
   }
+  //FINALIZA GIF
+  if (key == 'g'){
+    ficherogif.finish();   
+  }
+  
 }
 void keyReleased(){
   if (keyCode == UP){
