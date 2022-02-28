@@ -134,3 +134,11 @@ void draw() {
   //ficherogif.addFrame();
   }
 ```
+
+**Referencias**
+
+ [Explicación practica 3](https://github.com/otsedom/otsedom.github.io/blob/main/CIU/P3/README.md)
+ 
+ [Texturas planetas sistema solar](https://www.google.com/search?q=textura+planeta&tbm=isch&ved=2ahUKEwiF8o3O06H2AhVn_bsIHZiqAl0Q2-cCegQIABAA&oq=textura+planeta&gs_lcp=CgNpbWcQAzIHCCMQ7wMQJzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoECAAQQzoGCAAQCBAeOggIABCABBCxA1CcBVi3EmD6EmgAcAB4AYAB1AGIAcIJkgEGMTIuMC4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=7lscYoXDHOf67_UPmNWK6AU&bih=909&biw=1920#imgrc=wBp6c6ZrDlkTWM)
+ 
+ [Texturas planetas rocosas](https://www.google.com/search?q=textura+rocosa&sxsrf=APq-WBsEyrVP2PJWXd9LN0dmp_JSuflCvw:1646025650648&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi-v8qx06H2AhWmyYUKHTMAC94Q_AUoAXoECAEQAw&biw=1920&bih=909&dpr=1#imgrc=ei2FILxdzOyOvM)
